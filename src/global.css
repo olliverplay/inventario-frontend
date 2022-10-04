@@ -4,6 +4,7 @@
     padding:0;
     outline: 0;
     box-sizing: 0;
+    
 }
 body{
     font:400 14px 'Roboto', sans-serif;
@@ -31,7 +32,7 @@ table{
     margin: 0 auto;
 }
 th, td{
-    border-bottom:1px solid #96d4d4;
+    border-bottom:1px solid #18d1d1;
     text-align: left;
     padding: 5px;
 }
@@ -43,7 +44,8 @@ form input{
     border:1px solid #dcdce6;
     border-radius: 5px;
     margin:3px;
-    padding: 3px;
+    padding: 10px;
+    
 }
 .form-cadastro{
     width: 50%;
@@ -71,7 +73,7 @@ form input{
     text-decoration: none;
     display: flex;
     flex-direction: row;
-    background-color: tomato;
+    background-color: rgb(206, 31, 0);
     color: #FFF;
     border: solid 1px;
     border-radius: 5px;
@@ -84,7 +86,7 @@ form input{
     color:red;
 }
 .head{
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid rgb(255, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,6 +97,7 @@ form input{
     position:absolute;
     right: 0;
     padding-left: 20px;
+    margin-right: 25px;
 }
 .button_new{
     width: 50%;
@@ -117,4 +120,10 @@ form input{
 }
 .button_save:hover{
     filter:brightness(90%);
+}
+.button_save{
+    margin-left: 12px;
+    border-radius:5px;
+    color:white;
+    background-color: rgb(236, 62, 31);
 }
